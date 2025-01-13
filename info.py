@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/ujwalnayak2") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002237896833'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/KFCINEMAS')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/KF_requestgroup')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002345049135').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -36,7 +36,7 @@ DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002340781909')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002337044995'))
-request_channel = environ.get('REQUEST_CHANNEL', 'https://t.me/KF_requestgroup') # If anyone sends a request message to your bot, you will get it in this channel.
+request_channel = environ.get('REQUEST_CHANNEL', 'https://t.me/KFCINEMAS') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/KFCINEMAS') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
